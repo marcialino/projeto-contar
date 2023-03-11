@@ -1,6 +1,10 @@
+@charset "UTF-8";
+
 body{
     font: normal 16pt Arial;
     background-color: #744fc6;
+    height: 100vh;
+    width: 100vw;
 }
 
 header{
@@ -9,12 +13,24 @@ header{
     font-size: 18pt;
 
 }
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
 section#msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     background-color: white;
     width: 500px;
     margin: auto;
     border-radius: 10px;
     padding: 15px;
+
 
 }
 
