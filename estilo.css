@@ -1,0 +1,33 @@
+body{
+    font: normal 16pt Arial;
+    background-color: #744fc6;
+}
+
+header{
+    color:#fef9ef;
+    text-align: center;
+    font-size: 18pt;
+
+}
+section#msg{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+footer{
+    color: white;
+    font-style: italic ;
+    font-size: 16pt;
+    text-align: center ;
+}
+input#bts{
+    background-color: #38369a;
+    padding: 8px;
+    border-radius: 3px 3px 3px 3px ;
+    font-size: 12pt;
+    color:white
+}
