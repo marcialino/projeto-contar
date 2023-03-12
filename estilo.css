@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 body{
     font: normal 16pt Arial;
     background-color: #744fc6;
@@ -13,12 +14,6 @@ header{
     font-size: 18pt;
 
 }
-main{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-}
-
 section#msg{
     width: 500px;
     height: 500px;
