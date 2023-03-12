@@ -2,7 +2,7 @@
 
 /*configuração para celular */
 
-@media screen and (min-width: 329px) and (max-width:480px){
+@media screen and (min-width: 300px) and (max-width:480px){
     section#msg{
         width: 80vw ;
         height: 512px;
