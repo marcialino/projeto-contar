@@ -25,7 +25,8 @@ section#msg{
     background-color: white;
     margin: auto;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
+    padding-left: 30px;
 
 
 }
@@ -42,4 +43,20 @@ input#bts{
     border-radius: 3px 3px 3px 3px ;
     font-size: 12pt;
     color:white
+}
+input#txtn1{
+    height:20px ;
+    border-radius: 5px;
+    border-color: black;
+}
+input#txtn2{
+    height:20px ;
+    border-radius: 5px;
+    border-color: black;
+
+}
+input#pas{
+    height:20px ;
+    border-radius: 5px;
+    border-color: black;
 }
