@@ -1,4 +1,4 @@
-function contar(){
+function contar() {
     var n1 = window.document.getElementById('txtn1')
     var n2 = window.document.getElementById ('txtn2')
     var pas = window.document.getElementById('pas')
@@ -9,6 +9,7 @@ function contar(){
         res.innerHTML = `Impossível contar.`
     
     }else{
+        res.innerHTML = 'Contando: <br/>'
         n1 = Number(n1.value)
         n2 = Number(n2.value)
         pas = Number(pas.value)
